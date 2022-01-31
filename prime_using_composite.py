@@ -2,7 +2,7 @@ import math
 
 
 def prime(num):
-    num = int(input("Enter a number: "))
+
     flag = False
     if num > 1:
         for i in range(2, math.floor(math.sqrt(num)+1)):
@@ -15,3 +15,6 @@ def prime(num):
 
     else:
         return f"{num} is a prime number"
+
+
+print(prime(int(input("Enter a number: "))))
