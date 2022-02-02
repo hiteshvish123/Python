@@ -6,11 +6,11 @@ import prime_using_composite
 
 def prime_in_range():
 
-    start = int(input("Enter the starting point: "))
-    end = int(input("Enthr the last point: "))
+    START = int(input("Enter the starting point: "))
+    END = int(input("Enthr the last point: "))
 
-    X = 1
+    TEMP = 1
 
-    for X in range(start, end+1):
-        if prime_using_composite.prime(X):
-            print(X)
+    for TEMP in range(START, END+1):
+        if prime_using_composite.prime(TEMP):
+            print(TEMP)
