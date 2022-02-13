@@ -2,9 +2,9 @@
 
 import string
 
-shift = 3
-choice = input("would you like to encode or decode?")
-word = input("Please enter text")
+shift = 1
+choice = input("would you like to encode or decode?\n\t->")
+word = input("Please enter text\n\t->")
 letters = string.ascii_letters + string.punctuation + string.digits
 encoded = ''
 if choice == "encode":
