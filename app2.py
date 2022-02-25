@@ -1,5 +1,5 @@
-def kef(w):
-    return f"hi {w}"
+import app
 
 
-print(kef(input("enter data: ")))
+def h():
+    print(app.g("hwadk"))
