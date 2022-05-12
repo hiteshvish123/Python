@@ -1,3 +1,6 @@
+#pylint: disable = C0114
+#pylint: disable = C0115
+#pylint: disable = C0116
 NUMBER = int(input("Enter a number: "))
 
 N = NUMBER
